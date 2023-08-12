@@ -1,7 +1,24 @@
 import React from "react";
+import ProjectCard from "../components/ProjectCard";
+import { mainProjectList } from "../helpers/MainProjectList";
 
+import "../styles/Projects.css";
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div className="projects">
+      <h1>My Personal Projects </h1>
+      <div className="projectList">
+        {mainProjectList.map((project) => (
+          <ProjectCard
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            skills={project.skills}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default Projects;

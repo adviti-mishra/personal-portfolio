@@ -4,6 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
+import Project from "./Projects.js";
 
 function Home() {
   return (
@@ -52,6 +53,7 @@ function Home() {
           </li>
         </ol>
       </div>
+      <Project />
     </div>
   );
 }
