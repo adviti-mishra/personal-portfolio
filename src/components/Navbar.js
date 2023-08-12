@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder";
+import ReorderIcon from "@mui/icons-material/Reorder";
 
 function Navbar() {
   // Whether or not the Navbar is expanded

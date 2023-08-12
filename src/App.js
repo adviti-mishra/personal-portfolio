@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import Clubs from "./pages/Clubs";
 import Life from "./pages/Life";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/clubs" element={<Clubs />}></Route>
           <Route path="/life" element={<Life />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
