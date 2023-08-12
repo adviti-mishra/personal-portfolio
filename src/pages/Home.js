@@ -4,6 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
+
 function Home() {
   return (
     <div className="home">

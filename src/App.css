@@ -1,9 +1,13 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
 }
 
-/* Removes any padding and margin in the application*/
-.body {
+body {
   padding: 0;
   margin: 0;
 }

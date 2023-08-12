@@ -23,6 +23,7 @@ function Navbar() {
       <div className="links">
         <Link to={"/"}> Home </Link>
         <Link to={"/projects"}> Projects </Link>
+        <Link to={"/experience"}> Experience </Link>
         <Link to={"/clubs"}> Clubs </Link>
         <Link to={"/life"}> Life </Link>
       </div>
