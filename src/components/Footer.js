@@ -8,9 +8,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <LinkedInIcon />
-        <EmailIcon />
-        <GitHubIcon />
+        <a href={`https://www.linkedin.com/in/advitimishra/`}>
+          <LinkedInIcon />
+        </a>
+        <a href={`mailto:adviti@umich.edu`}>
+          <EmailIcon />
+        </a>
+        <a href={`https://github.com/adviti-mishra`}>
+          <GitHubIcon />
+        </a>
       </div>
       <p>&copy: 2023 adviti-mishra.com</p>
     </div>

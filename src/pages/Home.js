@@ -34,9 +34,17 @@ function Home() {
             listeners for 4 years now), making rangolis, curating fun facts,
             distance running (3-6 miles), and writing
           </p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <a href={`https://www.linkedin.com/in/advitimishra/`}>
+            <LinkedInIcon />
+          </a>
+
+          <a href={`mailto:adviti@umich.edu`}>
+            <EmailIcon />
+          </a>
+
+          <a href={`https://github.com/adviti-mishra`}>
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
