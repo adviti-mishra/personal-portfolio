@@ -11,66 +11,39 @@ function Timeline() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#21325e">
-        {/* Exploratory Data Analysis */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="May 2023- July 2023"
-          iconStyle={{ background: "#21325e", color: "#fff" }}
-          icon={<BusinessIcon />}
-        >
-          <h2 className="vertical-timeline-element-title">
-            University of Michigan School of Information
-          </h2>
-          <h3 className="vertical-timeline-element-subtitle">
-            Exploratory Data Analysis Research Intern
-          </h3>
-          <p>
-            Conducted exploratory data analysis using pandas, numpy, seaborn,
-            and matplotlib on a dataset of donation habits of University of
-            Michigan alumni, drafting a report of insights inclusive of
-            identity, graduation year, and degree obtained as explanatory
-            factors
-          </p>
-        </VerticalTimelineElement>
+        {/* St. Gregoris High School */}
 
-        {/* optiMize Social Innovation Challenge Fellowship */}
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="May 2022- July 2022"
+          className="vertical-timeline-element --education"
+          date="2019-2021"
           iconStyle={{ background: "#21325e", color: "#fff" }}
-          icon={<BusinessIcon />}
+          icon={<SchoolIcon />}
         >
           <h2 className="vertical-timeline-element-title">
-            optiMize Social Innovation Challenge Fellowship (MediHealth)
+            The University of Michigan
           </h2>
-          <h3 className="vertical-timeline-element-subtitle">
-            Founder and Software Engineer
-          </h3>
+          <h3 className="vertical-timeline-element-subtitle">IB : 44/45</h3>
           <p>
-            Developed a MVP of a mobile application aiming to increase
-            medication compliance amongst the elderly by providing emotional
-            support, winning ~$4,000 in funding out of 200+ pitches.
+            Honors :
+            <ul align="left">
+              <li> Willian Barnstorm Freshman prize (top 5% of 4000)</li>
+              <li>
+                James A. Angell Scholar (all As for more than 2 semesters)
+              </li>
+              <li> University Honors </li>
+            </ul>
           </p>
-        </VerticalTimelineElement>
-
-        {/* Yatra Online Pvt. Ltd. (Yatra Covid Connect) */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="May 2021- July 2021"
-          iconStyle={{ background: "#21325e", color: "#fff" }}
-          icon={<BusinessIcon />}
-        >
-          <h2 className="vertical-timeline-element-title">
-            Yatra Online Pvt. Ltd.
-          </h2>
-          <h3 className="vertical-timeline-element-subtitle">
-            Software Engineering Intern
-          </h3>
           <p>
-            Worked as one of the initiators and software engineers ( Letter of
-            Recommendation) of Yatra Covid Connect - a digital repository of
-            58,000+ verified Covid-19 amenities with a reach of ~6 million
-            families in India. This project was recognized by 5+ news websites.
+            Activities :
+            <ul align="left">
+              <li> Sponsorship Lead @ MHacks </li>
+              <li>
+                Teaching Assistant @ Programming and Data Structures (EECS 280)
+              </li>
+              <li>
+                Technology Peer Mentor @ optiMize Social Innovation Challenge{" "}
+              </li>
+            </ul>
           </p>
         </VerticalTimelineElement>
 

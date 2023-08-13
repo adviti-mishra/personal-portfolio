@@ -1,5 +1,4 @@
 import React from "react";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 function ProjectCard({ image, name, description, skills, gitHubLink }) {
   return (
@@ -10,10 +9,9 @@ function ProjectCard({ image, name, description, skills, gitHubLink }) {
         <p> {description}</p>
         <p> Skills: </p>
         <p> {skills}</p>
-        <p>
-          {" "}
-          <GitHubIcon />{" "}
-        </p>
+        <div className="link-container">
+          {gitHubLink ? <a href={gitHubLink}>GitHub</a> : null}
+        </div>
       </div>
     </div>
   );

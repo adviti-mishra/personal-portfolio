@@ -16,8 +16,11 @@ function WorkExperience() {
             title={experience.title}
             bulletPoints={experience.bullet_points}
             skills={experience.skills}
-            githubLink={experience.gitHublink}
-            link={experience.link}
+            gitHubLink={experience.gitHubLink}
+            demo={experience.demo}
+            flow={experience.flow}
+            recognition={experience.recognition}
+            lor={experience.lor}
           />
         ))}
       </div>

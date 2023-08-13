@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: white;
 }
 .experience .experienceTitle {
   text-align: center;
@@ -15,6 +16,7 @@
 
 .experienceList {
   height: auto;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
@@ -40,7 +42,7 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 200px;
+  height: 225px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,6 +50,23 @@
 
 .experienceItem h1 {
   font-size: 25px;
+}
+
+.link-container {
+  display: flex;
+  gap: 10px; /* Adjust this value to control the spacing between the links */
+  justify-content: center; /* Horizontally center the buttons */
+  align-items: center; /* Vertically center the buttons */
+  color: #3e497a;
+}
+
+.link-container a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px; /* Add padding around the links */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  border-radius: 4px; /* Rounded corners for the links */
+  color: #3e497a;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -69,7 +88,7 @@
   .experienceItem {
     border-radius: 15px;
     width: 300px;
-    height: 850px;
+    height: 900px;
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;

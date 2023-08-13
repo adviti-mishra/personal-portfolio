@@ -2,8 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Experience from "./pages/Timeline";
-import Clubs from "./pages/Clubs";
+import Education from "./pages/Timeline";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -15,14 +14,13 @@ function App() {
         {/* Navbar exists on every page. 
         Placing it here lets it accept things
         from the Router dom like the link component*/}
-        <Navbar />
+        {/*<Navbar />*/}
         {/* Routes should only have the Route components*/}
         <Routes>
           {/* When user navigates to path, the route component renders element */}
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/experience" element={<Experience />}></Route>
-          <Route path="/clubs" element={<Clubs />}></Route>
+          <Route path="/education" element={<Education />}></Route>
         </Routes>
         <Footer />
       </Router>

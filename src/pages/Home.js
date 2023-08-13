@@ -14,20 +14,41 @@ function Home() {
         <h2> Hi, I'm Adviti Mishra </h2>
         <div className="prompt">
           <p>
-            I'm a junior majoring in Computer Science with a minor in Business
-            at The University of Michigan Ann Arbor. I have experience with web
-            development, mobile app development, and exploratory data analysis
-            through internships and side projects!
+            <p>
+              Check out my skills, work experiences, and project experiences
+              here!
+            </p>
+            Hi! I'm a junior majoring in Computer Science with a minor in
+            Business at The University of Michigan Ann Arbor. I have experience
+            with web development, mobile app development, and exploratory data
+            analysis through internships and side projects!
           </p>
           <p>
-            I'm a member of communities like Rewriting the Code (RTC), the
-            Society of Women Engineers (SWE), and the Grace Hopper Conference
-            (GHC '23).
+            At my university, I'm a Teaching Assistant for
+            <a href={`https://rewritingthecode.org/`}>
+              Programming and Data Structures (EECS 280)
+            </a>
+            , the Sponsorship Lead of
+            <a href={`https://rewritingthecode.org/`}>MHacks</a>, and used to be
+            a Technology Peer Mentor at
+            <a href={`https://rewritingthecode.org/`}>
+              optiMize's Social Innovation Challenge
+            </a>
           </p>
           <p>
-            At my university, I'm a Teaching Assistant for Programming and Data
-            Structures, the Sponsorship Lead of MHacks, and used to be a
-            Technology Peer Mentor at optiMize's Social Innovation Challenge.
+            I'm also a member of communities like
+            <a href={`https://rewritingthecode.org/`}>
+              Rewriting the Code (RTC)
+            </a>
+            ,
+            <a href={`https://www.swe.engin.umich.edu/`}>
+              Society of Women Engineers (SWE)
+            </a>
+            , and the
+            <a href={`https://ghc.anitab.org/`}>
+              Grace Hopper Conference (vGHC '23)
+            </a>
+            .
           </p>
           <p>
             In my free time, I love listening to Taylor Swift (top 0.5%
@@ -47,39 +68,43 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="skills">
+      <div id="skills" className="skills">
         <h1> Skills </h1>
         <ol className="list">
+          <h3>Languages :</h3>
           <li className="item">
-            <h3> Languages: </h3>
             <span>
               Python, C++, JavaScript, Java, Dart, C, Google Apps Script, ARM
             </span>
           </li>
+          <h3>Front-end :</h3>
           <li className="item">
-            <h3> Front-end: </h3>
             <span>
               React, HTML, CSS, Tailwind CSS, Flutter, NPM, MaterialUI
             </span>
           </li>
+          <h3>Back-end :</h3>
           <li className="item">
-            <h3> Back-end: </h3>
-            <span> Firebase, MongoDB, Supabase, MySQL</span>
+            <span>Firebase, MongoDB, Supabase, MySQL</span>
           </li>
+          <h3> Data Analysis :</h3>
           <li className="item">
-            <h3> Data Analysis: </h3>
             <span> Pandas, NumPy, Seaborn, Matplotlib</span>
           </li>
+          <h3> Tools and technologies :</h3>
           <li className="item">
-            <h3> Tools and technologies: </h3>
             <span>
               Git, VSCode, XCode, Android Studio, Postman, Jupyter Notebook
             </span>
           </li>
         </ol>
       </div>
-      <WorkExperience />
-      <Project />
+      <div id="experience">
+        <WorkExperience />
+      </div>
+      <div id="projects">
+        <Project />
+      </div>
     </div>
   );
 }

@@ -14,6 +14,7 @@ function Projects() {
             image={project.image}
             description={project.description}
             skills={project.skills}
+            gitHubLink={project.gitHubLink}
           />
         ))}
       </div>
