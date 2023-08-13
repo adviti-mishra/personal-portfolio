@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import BusinessIcon from "@mui/icons-material/Business";
 
-function Experience() {
+function Timeline() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#21325e">
@@ -138,4 +138,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Timeline;

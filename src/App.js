@@ -2,9 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
+import Experience from "./pages/Timeline";
 import Clubs from "./pages/Clubs";
-import Life from "./pages/Life";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -24,7 +23,6 @@ function App() {
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
           <Route path="/clubs" element={<Clubs />}></Route>
-          <Route path="/life" element={<Life />}></Route>
         </Routes>
         <Footer />
       </Router>

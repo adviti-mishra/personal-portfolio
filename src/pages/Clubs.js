@@ -1,7 +1,7 @@
 import React from "react";
 
-function Experience() {
-  return <div>Experience</div>;
+function Clubs() {
+  return <div>Clubs</div>;
 }
 
-export default Experience;
+export default Clubs;
