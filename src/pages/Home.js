@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import ResumeIcon from "@mui/icons-material/Description";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
 import Project from "./Projects.js";
@@ -65,6 +66,12 @@ function Home() {
 
           <a href={`https://github.com/adviti-mishra`}>
             <GitHubIcon />
+          </a>
+
+          <a
+            href={`https://drive.google.com/file/d/1UTt1anu3XN_oYznYOHLFYDBqVZG4wdwO/view?usp=sharing`}
+          >
+            <ResumeIcon />
           </a>
         </div>
       </div>
