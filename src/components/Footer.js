@@ -18,7 +18,7 @@ function Footer() {
           <GitHubIcon />
         </a>
       </div>
-      <p>&copy; 2023 adviti-mishra.com</p>
+      <p>&copy; 2024 adviti-mishra.com</p>
     </div>
   );
 }

@@ -11,25 +11,43 @@ function ExperienceCard({
   gitHubLink,
   demo,
   flow,
+  link,
   recognition,
   lor,
+  location,
+  time,
+  description,
 }) {
   return (
     <div className="experienceItem">
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h2> {name} </h2>
-      <p> {title} </p>
-      <ul align="left">
-        {bulletPoints.map((bulletPoint) => (
-          <li> {bulletPoint} </li>
-        ))}
-      </ul>
-      <p> Skills: {skills}</p>
+      <p>
+        {" "}
+        <b> Title: </b> {title}{" "}
+      </p>
+      <p>
+        {" "}
+        <b> Dates: </b> {time}{" "}
+      </p>
+      <p>
+        {" "}
+        <b> Location: </b> {location}{" "}
+      </p>
+      <p>
+        {" "}
+        <b> Description: </b> {description}{" "}
+      </p>
+      <p>
+        {" "}
+        <b> Skills: </b> {skills}
+      </p>
       <div className="link-container">
         {gitHubLink ? <a href={gitHubLink}>GitHub</a> : null}
         {demo ? <a href={demo}>Demo</a> : null}
         {flow ? <a href={flow}>Flow</a> : null}
-        {recognition ? <a href={recognition}> Recognition </a> : null}
+        {link ? <a href={link}>Link</a> : null}
+        {recognition ? <a href={recognition}> Features </a> : null}
         {lor ? <a href={lor}> Recommendation Letter </a> : null}
       </div>
     </div>

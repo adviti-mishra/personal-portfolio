@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Education from "./pages/Timeline";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WorkExperience from "./pages/WorkExperience";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -19,8 +20,11 @@ function App() {
         <Routes>
           {/* When user navigates to path, the route component renders element */}
           <Route path="/" element={<Home />}></Route>
+          <Route path="/work" element={<WorkExperience />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/education" element={<Education />}></Route>
+          <Route path="/writing" element={<Education />}></Route>
         </Routes>
         <Footer />
       </Router>

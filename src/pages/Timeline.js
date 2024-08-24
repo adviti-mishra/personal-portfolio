@@ -5,11 +5,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
-import BusinessIcon from "@mui/icons-material/Business";
-
+import Navbar from "../components/Navbar";
 function Timeline() {
   return (
     <div className="experience">
+      <Navbar></Navbar>
+      <h1> Education </h1>
       <VerticalTimeline lineColor="#21325e">
         {/* St. Gregoris High School */}
 
@@ -22,10 +23,11 @@ function Timeline() {
           <h2 className="vertical-timeline-element-title">
             The University of Michigan
           </h2>
-          <h3 className="vertical-timeline-element-subtitle">IB : 44/45</h3>
+          <h3 className="vertical-timeline-element-subtitle">GPA: 3.7 </h3>
           <p>
             Honors :
             <ul align="left">
+              <li> CSE Outstanding Service Award </li>
               <li> Willian Barnstorm Freshman prize (top 5% of 4000)</li>
               <li>
                 James A. Angell Scholar (all As for more than 2 semesters)
@@ -36,7 +38,7 @@ function Timeline() {
           <p>
             Activities :
             <ul align="left">
-              <li> Sponsorship Lead @ MHacks </li>
+              <li> Co-Director and Sponsorship Lead @ MHacks 16 </li>
               <li>
                 Teaching Assistant @ Programming and Data Structures (EECS 280)
               </li>

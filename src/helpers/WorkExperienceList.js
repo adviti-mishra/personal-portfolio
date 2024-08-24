@@ -1,18 +1,85 @@
-import MediHealthImg from "../assets/MediHealth.png";
 import EDAImg from "../assets/EDA.png";
 import MediHealthRecognitionImg from "../assets/MediHealthRecognition.png";
 import YatraCovidConnect from "../assets/YatraCovidConnect.png";
-import AiPiImg from "../assets/AiPi.png";
+import EECS280Img from "../assets/EECS280.png";
+import MongoDBImg from "../assets/MongoDB6.png";
+import optiMizeSICImg from "../assets/optiMizeSIC.png";
 
 export const mainExperienceList = [
   {
+    name: "MongoDB",
+    title: "Software Engineering Intern",
+    time: "June 2024 - August 2024",
+    image: MongoDBImg,
+    description: [
+      "Discovered and applied a novel technique of lineraizing a recursive call stack using Ruby Fibers, allowing 20,000+ developers to cascade around callbacks for embedded documents in Mongoid without a SystemStackError.",
+    ],
+    skills: "Ruby, Ruby on Rails, NoSQL, git",
+    gitHubLink: "https://github.com/mongodb/mongoid/pull/5837",
+    demo: "",
+    flow: "",
+    recognition: "",
+    lor: "",
+    location: "New York City, NY",
+  },
+  {
+    name: "University of Michigan Computer Science Engineering",
+    title: "Instructional Aide (EECS 280 - Programming and Data Structures)",
+    time: "August 2022 - April 2024",
+    image: EECS280Img,
+    description: [
+      "Serving as Lab Lead designing lab content and exercises for a 1000+ student class, conducting weekly 2-hour labs, providing 3-5 hours of weekly office hours, and creating exams in C++",
+    ],
+    skills: "C++, Teaching, Object Oriented Programming, Data Structures, Git",
+    gitHubLink: "",
+    demo: "",
+    flow: "",
+    link: "https://eecs280.org/",
+    recognition: "",
+    lor: "",
+    location: "Ann Arbor, MI",
+  },
+  {
+    name: "University of Michigan School of Information",
+    title: "Exploratory Data Analysis Intern",
+    time: "May 2023 - July 2023",
+    image: EDAImg,
+    description: [
+      "Conducted Exploratory Data Analysis by processing and analyzing data on donation motivators/preferences of alumni with identity and degree as explanatory variables to boost solicitation response rate.",
+    ],
+    skills: "Exploratory Data Analysis, Pandas, NumPy, Seaborn, Matplotlib",
+    gitHubLink: "",
+    demo: "",
+    flow: "",
+    link: "",
+    recognition: "",
+    lor: "",
+    location: "Ann Arbor, MI",
+  },
+  {
+    name: "optiMize Social Innovation Challenge",
+    title: "Technology Peer Mentor",
+    time: "August 2022 - April 2023",
+    image: optiMizeSICImg,
+    description: [
+      "Guided over 300 students in developing their social innovation projects through the Social Innovation Challenge incubator to win up to $10,000.",
+    ],
+    skills: "Mentoring, Agile Project Management, Entrepreneurship",
+    gitHubLink: "",
+    demo: "",
+    flow: "",
+    link: "https://www.optimizemi.org/",
+    recognition: "",
+    lor: "",
+    location: "Ann Arbor, MI",
+  },
+  {
     name: "MediHealth (optiMize Social Innovation Challenge '23)",
-    title: "Founder and Software Engineer",
+    title: "Fellow",
+    time: "May 2022 - July 2022",
     image: MediHealthRecognitionImg,
-    bullet_points: [
-      "Developed an MVP of MediHealth - a cross-platform mobile application to increase medication compliance in senior populations through emotional support, receiving ~$4,000 in funding out of 200+ pitches in a 13-week incubator",
-      "Engineered 40+ components in Flutter, a NoSQL Firestore database, user registration with Firebase Auth, and accessibility features like text to speech, increasing MVP development time by 2 weeks",
-      "Led a team of 5 software and 5 UI/UX students to implement extension features, design 10+ screens in Figma and conduct 20+ user interviews in weekly sprints, creating an intuitive UX with a 4.8/5.0 rating on user feedback",
+    description: [
+      "Built an MVP for the first version of the MediHealth mobile application using Google’s Dart-based Flutter SDK and NoSQL Firebase as a full-stack developer.",
     ],
     skills: "Flutter, Firebase, Pitching, Figma, Git",
     gitHubLink: "https://github.com/adviti-mishra/MediHealth",
@@ -21,15 +88,15 @@ export const mainExperienceList = [
     recognition:
       "https://www.optimizemi.org/blog/why-optimize-from-cohort-10-fellows",
     lor: "",
+    location: "Ann Arbor, MI",
   },
   {
     name: "Yatra Online Pvt. Ltd.",
     image: YatraCovidConnect,
+    time: "May 2021 - July 2021",
     title: "Software Engineering Intern",
-    bullet_points: [
-      "Spearheaded automation of data flow for a digital repository of lifesaving information about Covid-19 resources, expediting launch to 2 weeks before the initial deadline, reaching 6 million, and being featured in 5+ websites.",
-      "Optimized workflows for data verification using Google Apps Scripts, increasing the verification rate by 80% and satisfaction with the internal tool amongst the 1000+ volunteer verifiers by 80%",
-      "Implemented regex response validation for data collection, improving data integrity for entries collected by 90%, increasing the number of entries added to the website daily by 75% to a total 60,000+ in one month",
+    description: [
+      "Worked as one of the software engineers and initiators (more info in LOR) of Yatra Covid Connect - a digital repository of 58,000+ verified Covid-19 amenities with a reach of ~6 million families in India. This project was recognized by 5+ news websites",
     ],
     skills: "Google Apps Script, Regex, Data orchestration",
     gitHubLink: "",
@@ -38,37 +105,6 @@ export const mainExperienceList = [
     recognition:
       "https://www.google.com/search?q=yatra+covid+connect+news&oq=yatra+covid+connect+news&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg0Mzc2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
     lor: "https://drive.google.com/file/d/1DnrMfle0Cm7gRxl3-wxJm1vMHIWfur2N/view?usp=sharing",
-  },
-  {
-    name: "University of Michigan School of Information",
-    title: "Exploratory Data Analysis Intern",
-    image: EDAImg,
-    bullet_points: [
-      "Conducted an intersectional analysis  with identity and degree obtained as explanatory variables on data of donation behaviors of alumni using pandas, numpy, seaborn, and matplotlib to boost donation propensity by 20%",
-      "Designed a survey to collect 200+ responses for the data, interviewed alumni and fundraisers ",
-    ],
-    skills: "Flutter, Firebase, Pitching, Figma, Git",
-    gitHubLink: "",
-    demo: "",
-    flow: "",
-    recognition: "",
-    lor: "",
-  },
-
-  {
-    name: "AiPi Solutions",
-    image: AiPiImg,
-    title: "Machine Learning Engineering Intern",
-    bullet_points: [
-      "Spearheaded automation of data flow for a digital repository of lifesaving information about Covid-19 resources, expediting launch to 2 weeks before the initial deadline, reaching 6 million, and being featured in 5+ websites.",
-      "Optimized workflows for data verification using Google Apps Scripts, increasing the verification rate by 80% and satisfaction with the internal tool amongst the 1000+ volunteer verifiers by 80%",
-      "Implemented regex response validation for data collection, improving data integrity for entries collected by 90%, increasing the number of entries added to the website daily by 75% to a total 60,000+ in one month",
-    ],
-    skills: "Google Apps Script, Regex, Data orchestration",
-    gitHubLink: "",
-    demo: "",
-    flow: "",
-    recognition: "",
-    lor: "",
+    location: "Mumbai, India",
   },
 ];

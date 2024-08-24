@@ -2,7 +2,6 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  background-color: #21325e;
 }
 
 p a {
@@ -39,20 +38,23 @@ a:visited {
 
 .about {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  color: white;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
-  color: #e9d35b;
   height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .about .prompt {
@@ -66,13 +68,11 @@ a:visited {
 }
 
 .skills {
-  font-size: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: white;
 }
 
 .skills h1 {
@@ -96,16 +96,28 @@ a:visited {
   font-size: 20px;
 }
 
+.workexpr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.workexpr h1 {
+  color: #3e497a;
+}
+
 @media only screen and (max-width: 1250px) {
   .about {
     width: 100%;
-    height: 100;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
   }
 }
 
@@ -118,12 +130,10 @@ a:visited {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
   }
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    color: #e9d35b;
     height: 30px;
   }
 }
