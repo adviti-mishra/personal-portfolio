@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import WorkExperience from "./pages/WorkExperience";
 import Skills from "./pages/Skills";
 import Clubs from "./pages/Clubs";
+import Writing from "./pages/Writing";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
           <Route path="/clubs" element={<Clubs />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/education" element={<Education />}></Route>
-          <Route path="/writing" element={<Education />}></Route>
+          <Route path="/writing" element={<Writing />}></Route>
         </Routes>
         <Footer />
       </Router>

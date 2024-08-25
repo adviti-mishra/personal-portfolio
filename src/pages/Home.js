@@ -10,7 +10,7 @@ function Home() {
         <h2> Hi, I'm Adviti Mishra </h2>
         <div className="prompt">
           <p>
-            I'm a junior majoring in Computer Science with a minor in Business
+            I'm a senior majoring in Computer Science with a minor in Business
             at The University of Michigan Ann Arbor. I have experience with web
             development, mobile app development, exploratory data analysis, and
             product management.
