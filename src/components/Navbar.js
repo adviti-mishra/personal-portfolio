@@ -24,6 +24,7 @@ function Navbar() {
         <Link to={"/"}> advitimishra.com </Link>
         <Link to={"/work"}> Work experience </Link>
         <Link to={"/projects"}> Projects </Link>
+        <Link to={"/clubs"}> Clubs </Link>
         <Link to={"/education"}> Education </Link>
         <Link to={"/skills"}> Skills </Link>
         <p> • </p>

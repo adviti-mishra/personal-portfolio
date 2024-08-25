@@ -1,0 +1,100 @@
+.clubs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clubs .clubTitle {
+  text-align: center;
+  color: #3e497a;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.clubList {
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+/* MENU ITEM STYLING */
+
+.clubItem {
+  border-radius: 15px;
+  width: 400px;
+  height: 450px;
+  margin: 40px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: white;
+}
+
+.clubItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.clubItem .bgImage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clubItem h1 {
+  font-size: 25px;
+}
+
+.link-container {
+  display: flex;
+  gap: 10px;
+  /* Adjust this value to control the spacing between the links */
+  justify-content: center;
+  /* Horizontally center the buttons */
+  align-items: center;
+  /* Vertically center the buttons */
+  color: #3e497a;
+}
+
+.link-container a {
+  text-decoration: none;
+  padding: 5px 10px;
+  /* Add padding around the links */
+  border: 1px solid #ccc;
+  /* Add a border for visual separation */
+  border-radius: 4px;
+  /* Rounded corners for the links */
+  color: #3e497a;
+}
+
+@media only screen and (max-width: 1000px) {
+  .clubList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .clubList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .clubList {
+    width: 100%;
+  }
+
+  .clubItem {
+    width: 300px;
+    height: 500px;
+  }
+}

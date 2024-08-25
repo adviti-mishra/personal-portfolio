@@ -10,7 +10,7 @@ function Skills() {
       <ol className="list">
         <h3>Languages :</h3>
         <li className="item">
-          <span>Python, C++, Java, Dart, C, Google Apps Script, ARM</span>
+          <span>Python, C++, Ruby, Java, Dart, C, Google Apps Script, ARM</span>
         </li>
         <h3>Front-end :</h3>
         <li className="item">

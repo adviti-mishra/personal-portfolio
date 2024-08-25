@@ -8,11 +8,12 @@ import optiMizeSICImg from "../assets/optiMizeSIC.png";
 export const mainExperienceList = [
   {
     name: "MongoDB",
-    title: "Software Engineering Intern",
+    title: "Software Engineering Intern (RubyConf 2024 Co-Presenter)",
     time: "June 2024 - August 2024",
     image: MongoDBImg,
     description: [
       "Discovered and applied a novel technique of lineraizing a recursive call stack using Ruby Fibers, allowing 20,000+ developers to cascade around callbacks for embedded documents in Mongoid without a SystemStackError.",
+      "Chosen to co-present my work at a Ruby conference with 500+ attendees from all over the US and 10+ countries."
     ],
     skills: "Ruby, Ruby on Rails, NoSQL, git",
     gitHubLink: "https://github.com/mongodb/mongoid/pull/5837",

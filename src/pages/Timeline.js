@@ -16,14 +16,14 @@ function Timeline() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element --education"
-          date="2019-2021"
+          date="2021-2025"
           iconStyle={{ background: "#21325e", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h2 className="vertical-timeline-element-title">
             The University of Michigan
           </h2>
-          <h3 className="vertical-timeline-element-subtitle">GPA: 3.7 </h3>
+          <h3 className="vertical-timeline-element-subtitle">GPA: 3.8 </h3>
           <p>
             Honors :
             <ul align="left">
